@@ -4,7 +4,7 @@ Title: "Cancer hystology subgroup: Athena"
 Description: "Codes identifing the histology subgropu of the cancer."
 
 
-* ^experimental = false
+/* ^experimental = false
 * codes from valueset HistologyAdenocarcinomaVS 
 * codes from valueset HistologyNeuroendocrineVS
 * codes from valueset HistologyOdontogenicCarcinomaVS
@@ -23,7 +23,7 @@ Description: "Codes identifing the histology subgropu of the cancer."
 * codes from valueset UndifSmallRCelSarcBonAndSofTisVS
 * codes from valueset VascularTumoursVS
 * codes from valueset ChondroOsseousTumoursVS
-* codes from valueset EstAndRelatedTumoursVS
+* codes from valueset EstAndRelatedTumoursVS */
 
 
 
@@ -31,7 +31,7 @@ Description: "Codes identifing the histology subgropu of the cancer."
 
 
 ValueSet: CancerHystolgyVs
-Id: Cancer-hystology-athena-vs
+Id: cancer-hystology-athena-vs
 Title:"Cancer hystology: Athena"
 Description: "Codes identifying the hystology of cancer."
 
@@ -260,7 +260,7 @@ Id: cancer-histologySquamous-athena-vs
 Title: "Cancer Histology Squamous: Athena"
 Description: "Codes identifying codindins beloging to the Histology Squamous group."
 /* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
- */
+ 
 * ^experimental = false */
 
 * $athena#4078953 "Squamous cell carcinoma, keratinizing"
