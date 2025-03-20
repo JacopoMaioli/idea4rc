@@ -16,6 +16,9 @@ RuleSet: CancerConditionCommonRules
 * extension contains PreviousStatus named previousStatus 0..1
 * extension[previousStatus]
 
+* extension contains $HistologyMorphologyBehavior named histology-morphology-behavior 0..
+* extension[HistologyMorphologyBehavior]
+
 * extension contains RelapseType named relapseType 0..1 
 * extension[relapseType].value[x]
 /* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
@@ -138,8 +141,6 @@ This profile should be also used for documenting primary cancer relapses during 
 
 * bodySite from VsSubsiteAthenaI4rc (extensible)
 //   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
-* extension contains $HistologyBehavior named histology-behavior 0..
-* extension[HistologyBehavior]
 
 /* * evidence ^slicing.discriminator.type = #value
 * evidence ^slicing.discriminator.path = "$this.resolve()"
