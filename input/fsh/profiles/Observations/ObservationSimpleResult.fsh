@@ -5,6 +5,8 @@ Title: "Observation: test results"
 Description: "This profile constrains the Observation resource to represent test results for the purpose of the IDEA4RC project."
 * obeys obs-valueOftype-quantity
 * obeys obs-valueOftype-codeable
+* obeys obs-valueOftype-codeable
+* obeys obs-valueOftype-codeable
 * code 1..1
 * code from VsSimpleResultI4rc
 * insert SubjectRules
@@ -15,7 +17,7 @@ Description: "This profile constrains the Observation resource to represent test
 * effective[x].extension[data-absent-reason] ^definition = "Provides a reason why the effectiveTime is missing." */
 * value[x] 1..
 * valueCodeableConcept 0..
-* valueCodeableConcept from VsPositiveNegativeNTAthenaI4rc (example)
+* valueCodeableConcept from CodedTestResultVS (example)
 /*   * insert AdditionalBinding (required, VsYesNoUnkAthenaI4rc,Yes-No-Unkwnon)
   * insert AdditionalBinding (required, VsPositiveNegativeNTAthenaI4rc, Positive-Negative-Not Tested)
   * insert AdditionalBinding (extensible, VsPositiveNegativeNTSnomedI4rc, Positive-Negative-Not Tested) */
@@ -25,9 +27,19 @@ Description: "This profile constrains the Observation resource to represent test
 Invariant: obs-valueOftype-quantity
 Description: "If the type is Mitotic count score or Size Tumor then the value is a Quantity"
 Severity:    #warning
-Expression:  "( (code = '4227243') or (code = '36768664') ) implies value.ofType(Quantity).exists()"
+Expression:  "( (code = '4227243') or (code = '36768664')  or (code = '36768749')) implies value.ofType(Quantity).exists()"
 
 Invariant: obs-valueOftype-codeable
 Description: "If the type is not Mitotic count score or Size Tumor then the value is a CodeableConcept"
 Severity:    #warning
-Expression:  "( (code != '4227243') and (code != '36768664') )  implies value.ofType(CodeableConcept).exists()"
+Expression:  "( (code = ' 4099595') or (code = '3043849') or (code = '46236082') or (code = 3000965) )  implies value.ofType(CodeableConcept).exists()"
+
+Invariant: obs-valueOftype-codeable
+Description: "If the type is not Mitotic count score or Size Tumor then the value is a CodeableConcept"
+Severity:    #warning
+Expression:  "(code = 36768749 )  implies value.meberOf(http://hl7.eu/fhir/ig/idea4rc/ValueSet/mitotic-index-athena-vs).exists()"
+
+Invariant: obs-valueOftype-codeable
+Description: "If the type is not Mitotic count score or Size Tumor then the value is a CodeableConcept"
+Severity:    #warning
+Expression:  "( (code = 3043849) or (code = 46236082) or (code = 3000965)  implies value.meberOf(http://hl7.eu/fhir/ig/idea4rc/ValueSet/positive-negative-notest-athena-vs).exists()"
