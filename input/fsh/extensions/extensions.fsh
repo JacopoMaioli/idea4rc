@@ -60,6 +60,16 @@ Description: "This extension provides a mean to indicate the histology behaviour
 * value[x] only CodeableConcept
 * valueCodeableConcept from $CancerHistolgyVs
 
+Extension: HistologyMorphologysubgroupBehavior
+Id:   condition-histology-morphology-subgroup-behavior
+Title:  "Histology Morphology Subgroup Behavior"
+// Da inserire la descrizione
+Description: "This extension provides a mean to indicate the histology behaviours of a condition"
+// publisher, contact, and other metadata here using caret (^) syntax (omitted)
+* insert ExtensionContext(Condition)
+* value[x] 1..
+* value[x] only CodeableConcept
+* valueCodeableConcept from $CancerhistologySubgroupVS
 
 
 

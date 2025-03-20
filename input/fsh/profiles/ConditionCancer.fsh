@@ -19,6 +19,9 @@ RuleSet: CancerConditionCommonRules
 * extension contains $HistologyMorphologyBehavior named histology-morphology-behavior 0..
 * extension[HistologyMorphologyBehavior]
 
+* extension contains $HistologyMorphologySubgroupBehavior named histology-morphology-subgroup-behavior 0..
+* extension[HistologyMorphologySubgroupBehavior]
+
 * extension contains RelapseType named relapseType 0..1 
 * extension[relapseType].value[x]
 /* * extension[relapseType].value[x] from RelapseTypeVS (preferred) */
