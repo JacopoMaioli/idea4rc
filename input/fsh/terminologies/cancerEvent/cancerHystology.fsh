@@ -26,6 +26,124 @@ Description: "Codes identifing the histology subgropu of the cancer."
 * codes from valueset EstAndRelatedTumoursVS */
 
 
+* $athena#4078953 "Squamous cell carcinoma, keratinizing"  
+* $athena#4166826 "Squamous cell carcinoma, large cell, nonkeratinizing"  
+* $athena#4206785 "Schneiderian carcinoma"  
+* $athena#2000100012 "Non-keratinizing squamous cell carcinoma: SMARCB1 (INI-1)-deficient Sinonasal Carcinoma"  
+* $athena#2000100013 "Non-keratinizing squamous cell carcinoma: Transitional (cylindrical cell, Schneiderian) carcinoma"  
+* $athena#4009590 "Squamous cell carcinoma, spindle cell"  
+* $athena#2000100014 "Spindle cell (sarcomatoid) squamous cell carcinoma: SMARCB1 (INI-1)"  
+* $athena#4247661 "Lymphoepithelial carcinoma"  
+* $athena#4029973 "Basaloid squamous cell carcinoma"  
+* $athena#37156145 "Squamous cell carcinoma"  
+* $athena#4312219 "Adenoid squamous cell carcinoma"  
+* $athena#4052146 "Squamous cell carcinoma, microinvasive"  
+* $athena#4175678 "Giant cell carcinoma"  
+* $athena#4233949 "Verrucous carcinoma"  
+* $athena#4191609 "Papillary squamous cell carcinoma"  
+* $athena#37204531 "Human papillomavirus positive squamous cell carcinoma"  
+* $athena#37204532 "Human papillomavirus negative squamous cell carcinoma"  
+* $athena#4097305 "Adenocarcinoma, intestinal type"  
+* $athena#37152526 "Adenocarcinoma"  
+* $athena#4050978 "Cystoadenocarcinoma"  
+* $athena#4247921 "Mucinous adenocarcinoma"  
+* $athena#4238334 "Ceruminous adenocarcinoma"  
+* $athena#4172953 "Papillary adenocarcinoma"  
+* $athena#4022895 "Adenoid cystic carcinoma"  
+* $athena#4253608 "Mucoepidermoid carcinoma"  
+* $athena#4030121 "Polymorphous low grade adenocarcinoma"  
+* $athena#4164740 "Acinar cell carcinoma"  
+* $athena#4148292 "Clear cell adenocarcinoma"  
+* $athena#4146684 "Basal cell adenocarcinoma"  
+* $athena#4221403 "Infiltrating duct carcinoma"  
+* $athena#4224593 "Juvenile carcinoma of the breast"  
+* $athena#4323699 "Paget's disease, extramammary (except Paget's disease of bone)"  
+* $athena#4029680 "Malignant myoepithelioma"  
+* $athena#4321002 "Epithelial-myoepithelial carcinoma"  
+* $athena#4066512 "Carcinoma ex pleomorphic adenoma"  
+* $athena#4182993 "Sebaceous adenocarcinoma"  
+* $athena#4271564 "Carcinosarcoma"  
+* $athena#4212379 "Oxyphilic adenocarcinoma"  
+* $athena#36714029 "Small cell neuroendocrine carcinoma (SmCC)"  
+* $athena#37018672 "Malignant poorly differentiated neuroendocrine carcinoma"  
+* $athena#4029971 "Large cell neuroendocrine carcinoma (LCNEC)"  
+* $athena#4133828 "Neuroendocrine tumor grade 1"  
+* $athena#4133297 "Neuroendocrine tumor grade 2"  
+* $athena#1242310 "Neuroendocrine carcinoma"  
+* $athena#4098585 "Odontogenic tumor, malignant"  
+* $athena#37116966 "Clear cell odontogenic carcinoma"  
+* $athena#4005818 "Malignant odontogenic ghost cell tumor"  
+* $athena#2000100015 "SMARCB1 (INI-1)-deficient Sinonasal undifferentiated Carcinoma"  
+* $athena#2000100016 "Sinonasal SMARCA4 deficient carcinoma"  
+* $athena#2000100017 "IDH2-mutated sinonasal undifferentiated neoplasm"  
+* $athena#44783808 "Undifferentiated carcinoma of nasal sinus"  
+* $athena#4243327 "Carcinoma, undifferentiated"  
+* $athena#4241843 "Adenosquamous carcinoma"  
+* $athena#4284401 "Teratocarcinoma"  
+* $athena#37116896 "Nuclear protein in testis associated carcinoma"  
+* $athena#2000100018 "HPV-related Multiphenotypic Sinonasal Carcinoma"  
+* $athena#4295574 "Olfactory neuroblastoma"  
+* $athena#4021372 "Atypical lipomatous tumor"  
+* $athena#4102790 "Liposarcoma, well differentiated"  
+* $athena#4284833 "Dedifferentiated liposarcoma"  
+* $athena#4101123 "Myxoid liposarcoma"  
+* $athena#4010104 "Pleomorphic liposarcoma"  
+* $athena#1243142 "Myxoid pleomorphic liposarcoma"  
+* $athena#4264204 "Aggressive fibromatosis"  
+* $athena#4295283 "Dermatofibrosarcoma protuberans"  
+* $athena#4207381 "Epithelioid haemangioendothelioma"  
+* $athena#3661612 "Angiosarcoma"  
+* $athena#4029021 "Undifferentiated sarcoma"  
+* $athena#4239519 "Myoepithelioma"  
+* $athena#4029680 "Myoepithelial carcinoma"  
+* $athena#4028565 "Ossifying fibromyxoid tumour"  
+* $athena#4195947 "Mesenchymoma"  
+* $athena#45766484 "Phosphaturic mesenchymal tumor, benign"  
+* $athena#45766485 "Phosphaturic mesenchymal tumour, malignant"  
+* $athena#4239956 "Angiomyxoma"  
+* $athena#4029526 "Angiomatoid fibrous histiocytoma"  
+* $athena#2000100019 "NTRK-rearranged spindle cell neoplasm (emerging)"  
+* $athena#45766528 "Ewing sarcoma / peripheral neuroectodermal tumor"  
+* $athena#37311513 "Biphenotypic sinonasal sarcoma"  
+* $athena#4135215 "Adenosarcoma"  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,14 +191,14 @@ Title: "Cancer Histology Adenocarcinoma: Athena"
 Description: "Codes identifying codindins beloging to the Histology Adenocarcinoma group."
 /* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
  
-* ^experimental = false */
+* ^experimental = false 
 
 // Missing "NOS, non–intestinal-type (sinonasal)"
 // Missing * $athena# "Endolymphatic sac low grade, "
 * $athena#37152526 "Adenocarcinoma"
 * $athena#4097305 "Adenocarcinoma, intestinal type"
 * $athena#4050978 "cystoadenocarcinoma"
-* $athena#4247921 "mucinous"
+* $athena#4247921 "mucinous adenocarcinoma"
 * $athena#4238334 "Ceruminous  (only in ear)"
 * $athena#4172953 "Papillary adenocarcinoma"
 * $athena#605208 "Nasopharyngeal papillary adenocarcinoma"
@@ -172,7 +290,7 @@ Description: "Codes identifying codindins beloging to the Histology Neuroendocri
 
 * ^experimental = false  */
 
-* $athena#36714029 "Small cell neuroendocrine carcinoma (SmCC)"
+/* $athena#36714029 "Small cell neuroendocrine carcinoma (SmCC)"
 * $athena#37018672 "Poorly differentiated neuroendocrine carcinoma"
 // * $athena# "small cell (grade 3)"
 * $athena#4029971 "Large cell neuroendocrine carcinoma (LCNEC)"
@@ -206,7 +324,7 @@ Title: "Cancer Histology Odontogenic Carcinoma: Athena"
 Description: "Codes identifying codindins beloging to the Histology Odontogenic Carcinoma group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 
 * $athena#37153944 "Ameloblastic carcinoma"
@@ -229,7 +347,7 @@ Title: "Cancer Histology SNUC: Athena"
 Description: "Codes identifying codindins beloging to the Histology SNUC group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 * $athena#2000100015 "SMARCB1 (INI-1)-deficient Sinonasal undifferentiated Carcinoma"  
 * $athena#2000100016 "Sinonasal SMARCA4 deficient carcinoma"  
 * $athena#2000100017 "IDH2-mutated sinonasal undifferentiated neoplasm"  
@@ -261,7 +379,7 @@ Title: "Cancer Histology Squamous: Athena"
 Description: "Codes identifying codindins beloging to the Histology Squamous group."
 /* * ^copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"
  
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4078953 "Squamous cell carcinoma, keratinizing"
 * $athena#4166826 "Squamous cell carcinoma, large cell, nonkeratinizing"
@@ -309,7 +427,7 @@ Title: "Cancer Histology Subgroup Adipocytic Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Histology Subgroup Adipocytic Tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4102790 "Liposarcoma, well differentiated"
 * $athena#4284833 "Dedifferentiated liposarcoma"
@@ -342,7 +460,7 @@ Title: "Cancer Histology Subgroup Fmt Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Histology Subgroup Fmt Tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#45766452 "Palmar/plantar-type fibromatosis"
 * $athena#4264204 "Aggressive fibromatosis"
@@ -404,7 +522,7 @@ Title: "Cancer Histology Subgroup So called Fibrohistiocytic Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Histology Subgroup So called Fibrohistiocytic Tumours."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4029525 "Plexiform fibrohistiocytic tumour"
 * $athena#4218898 "Giant cell tumour of soft parts"
@@ -431,7 +549,7 @@ Title: "Cancer Miscellanious mesenchimal tumors: Athena"
 Description: "Codes identifying codindins beloging to the Miscellanious mesenchimal tumors group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#45771357 "Uterine tumour resembling ovarian sex cord tumour"
 * $athena#4040991 "Benign phyllodes tumor"
@@ -479,7 +597,7 @@ Title: "Cancer Mixed epithelial and mesenchymal tumours: Athena"
 Description: "Codes identifying codindins beloging to the Mixed epithelial and mesenchymal tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4135215 "Adenosarcoma"
 
@@ -498,7 +616,7 @@ Title: "Cancer Pericytic Perivascular Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Pericytic Perivascular Tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#40571984 "Glomus tumour"
 
@@ -517,7 +635,7 @@ Title: "Cancer Peripheral Nerve Sheath Tumors: Athena"
 Description: "Codes identifying codindins beloging to the Peripheral Nerve Sheath Tumors group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4062426 "Malignant peripheral nerve sheath tumour"
 * $athena#4102399 "Melanotic malignant peripheral nerve sheath tumor"
@@ -545,7 +663,7 @@ Title: "Cancer Skeletal Muscle Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Skeletal Muscle Tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4031038 "Embryonal rhabdomyosarcoma"
 * $athena#4272931 "Alveolar rhabdomyosarcoma"
@@ -575,7 +693,7 @@ Title: "Cancer Smooth Muscle Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Smooth Muscle Tumours group."
 
 
-* ^experimental = false*/
+* ^experimental = false
 * $athena#4014760 "Glomus tumor"  
 * $athena#4028856 "Glomus tumor, malignant"  
 * $athena#4327493 "Smooth muscle tumour"
@@ -616,7 +734,7 @@ Title: "Cancer Tumors Of Uncertain Differentiation: Athena"
 Description: "Codes identifying codindins beloging to the Tumors Of Uncertain Differentiation  group."
 
 
-* ^experimental = false*/
+* ^experimental = false
 
 * $athena#4096931 "Atypical fibrous histiocytoma"
 * $athena#4029526 "Angiomatoid fibrous histiocytoma"
@@ -702,7 +820,7 @@ Title: "Cancer undif. small round cell sarcomas of bone and soft tissue: Athena"
 Description: "Codes identifying codindins beloging to the Undifferentiated small round cell sarcomas of bone and soft tissue group."
 
 
-* ^experimental = false*/
+* ^experimental = false
 
 * $athena#45766528 "Ewing sarcoma / peripheral neuroectodermal tumor "
 * $athena#37155974 "Round cell sarcoma with EWSR1–non-ETS fusions"  
@@ -728,7 +846,7 @@ Title: "Cancer Vascular Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Vascular Tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4207381 "Epithelioid haemangioendothelioma"
 * $athena#3661612 "Angiosarcoma"
@@ -765,7 +883,7 @@ Title: "Cancer Chondro Osseous Tumours: Athena"
 Description: "Codes identifying codindins beloging to the Chondro Osseous Tumours group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 * $athena#4298240 "Extraskeletal osteosarcoma"
 
@@ -783,7 +901,7 @@ Title: "Cancer Endometrial stromal and related Tumors: Athena"
 Description: "Codes identifying codindins beloging to the Endometrial stromal and related Tumors group."
 
 
-* ^experimental = false */
+* ^experimental = false 
 
 
 * $athena#4290926 "Endometrial stromal sarcoma, high grade"
