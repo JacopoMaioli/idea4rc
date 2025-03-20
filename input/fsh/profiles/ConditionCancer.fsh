@@ -90,8 +90,7 @@ Description: "This profile defines how to represent Primary Cancer Condition in 
 This profile is inspired from the [mCode IG](http://build.fhir.org/ig/HL7/fhir-mCODE-ig). 
 A primary cancer condition, the original or first tumor in the body (Definition from: [NCI Dictionary of Cancer Terms]( https://www.cancer.gov/publications/dictionaries/cancer-terms/def/primary-tumor)).  Cancers that are not clearly secondary (i.e., of uncertain origin or behavior) should be documented as primary.
 This profile should be also used for documenting primary cancer relapses during or after FLT."
-* extension contains $HystologyBehavior named hystology-behavior 0..
-* extension[HystologyBehavior]
+
 
 
 * extension contains $condition-occurredFollowing named condition-occurredFollowing 0..*
@@ -139,7 +138,8 @@ This profile should be also used for documenting primary cancer relapses during 
 
 * bodySite from VsSubsiteAthenaI4rc (extensible)
 //   * insert AdditionalBinding (required, VsSubsiteSnomedI4rc, SNOMED based sites)
-
+* extension contains $HistologyBehavior named histology-behavior 0..
+* extension[HistologyBehavior]
 
 /* * evidence ^slicing.discriminator.type = #value
 * evidence ^slicing.discriminator.path = "$this.resolve()"

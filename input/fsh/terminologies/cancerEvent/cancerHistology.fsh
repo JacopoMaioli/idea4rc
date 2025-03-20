@@ -1,6 +1,6 @@
-ValueSet: CancerHystologySubgroupVS
-Id: cancer-hystology-subgroup-athena-vs  
-Title: "Cancer hystology subgroup: Athena"
+ValueSet: CancerhistologySubgroupVS
+Id: cancer-histology-subgroup-athena-vs  
+Title: "Cancer histology subgroup: Athena"
 Description: "Codes identifing the histology subgropu of the cancer."
 
 
@@ -149,9 +149,9 @@ Description: "Codes identifing the histology subgropu of the cancer."
 
 
 ValueSet: CancerHystolgyVs
-Id: cancer-hystology-athena-vs
-Title:"Cancer hystology: Athena"
-Description: "Codes identifying the hystology of cancer."
+Id: cancer-histology-athena-vs
+Title:"Cancer histology: Athena"
+Description: "Codes identifying the histology of cancer."
 
 
 *^experimental = false

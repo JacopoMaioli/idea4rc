@@ -49,16 +49,16 @@ Description: "This extension provides a mean to indicate the previous clinicalSt
 * value[x] only CodeableConcept
 * valueCodeableConcept from $vs-condition-clinical
 
-Extension: HystologyBehavior
-Id:   condition-hystologyBehavior
-Title:  "Hystology Behavior"
+Extension: HistologyBehavior
+Id:   condition-histologyBehavior
+Title:  "Histology Behavior"
 // Da inserire la descrizione
-Description: ""
+Description: "This extension provides a mean to indicate the histology behaviours of a condition"
 // publisher, contact, and other metadata here using caret (^) syntax (omitted)
 * insert ExtensionContext(Condition)
 * value[x] 1..
 * value[x] only CodeableConcept
-* valueCodeableConcept from $CancerHystolgyVs
+* valueCodeableConcept from $CancerHistolgyVs
 
 
 
