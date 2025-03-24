@@ -42,6 +42,10 @@ It is envisioned that this kind of requirements could be covered by recording wh
 
 
 * bodySite
+*extension contains bodySite:site named site 0..*
+*extension [site].valueCodeableConcept from sitesVs
+*extension contains bodySite:subsite named subsite 0..*
+*extension[subSite].valueCodeableConcept from VsSubsiteAthenaI4rc
   * extension contains BodyLocationQualifier named qualifier 0..*
   * extension[qualifier].valueCodeableConcept from VsSiteQualifierI4rc (extensible)
     * insert AdditionalBinding (preferred, $mcode-body-location-qualifier-vs, mCode value set)
