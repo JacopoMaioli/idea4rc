@@ -1,4 +1,4 @@
-@
+@startuml
 skinparam class {
     BackgroundColor<<LogicalModel>> #FFCC00
     BackgroundColor<<Profile>> #CCCCFF
