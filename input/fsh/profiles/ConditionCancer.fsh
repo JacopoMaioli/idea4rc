@@ -16,10 +16,10 @@ RuleSet: CancerConditionCommonRules
 * extension contains PreviousStatus named previousStatus 0..1
 * extension[previousStatus]
 
-* extension contains $HistologyMorphologyBehavior named histology-morphology-behavior 0..
+* extension contains $HistologyMorphologyBehavior named histology-morphology-behavior 0..1
 * extension[HistologyMorphologyBehavior]
 
-* extension contains $HistologyMorphologySubgroupBehavior named histology-morphology-subgroup-behavior 0..
+* extension contains $HistologyMorphologySubgroupBehavior named histology-morphology-subgroup-behavior 0..1
 * extension[HistologyMorphologySubgroupBehavior]
 
 * extension contains RelapseType named relapseType 0..1 
