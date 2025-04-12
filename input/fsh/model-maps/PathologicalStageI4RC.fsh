@@ -10,7 +10,7 @@ Maturity Level: 0 Draft"""
 * doneBy 1..* string "Staging procedures done by (M)" """Describes the ID of the institution where staging procedure for primary tumour was performed 
 """
 * doneBy insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* imagingForPrimarySite 1..* BackboneElement "Imaging for primary site (M)" """Defines whether any imaging study for primary site was performed or not 
+* imagingForPrimarySite 1..* boolean "Imaging for primary site (M)" """Defines whether any imaging study for primary site was performed or not 
 """
 * imagingForPrimarySite insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * imagingForPrimarySite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -37,7 +37,7 @@ Maturity Level: 0 Draft"""
 
  Fluorodeoxyglucose positron emission tomography - 2000100025
 Positron emission tomography using other tracers - 2000100026"""
-* imagingForNeck 1..* BackboneElement "Imaging for neck (M)" """Whether any imaging study for the neck was performed or not 
+* imagingForNeck 1..* boolean "Imaging for neck (M)" """Whether any imaging study for the neck was performed or not 
 """
 * imagingForNeck insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * imagingForNeck insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -67,7 +67,7 @@ Positron emission tomography using other tracers - 2000100026"""
 
  Fluorodeoxyglucose positron emission tomography - 2000100025
 Positron emission tomography using other tracers - 2000100026"""
-* imagingForMetastasis 1..* BackboneElement "Imaging for metastasis (M)" """Wherther any imaging study for metastasis was performed or not 
+* imagingForMetastasis 1..* boolean "Imaging for metastasis (M)" """Wherther any imaging study for metastasis was performed or not 
 """
 * imagingForMetastasis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * imagingForMetastasis insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)

@@ -105,9 +105,6 @@ No -  4188540"""
 * dateOfSurgeryOnM 1..* date "Date of surgery on M (M)" """Date of the surgery on the metastasis 
 """
 * dateOfSurgeryOnM insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* siteOfSurgeryOnMetastasis 0..* BackboneElement "Site of surgery on metastasis_soft tissue (O)" """Describes if site of surgery on metastasis  is soft tissue 
-"""
-* siteOfSurgeryOnMetastasis insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * siteOfSurgeryOnMetastasis.softTissue 0..* boolean "Site of surgery on metastasis_soft tissue (O)" """Describes if site of surgery on metastasis  is soft tissue 
 """
 * siteOfSurgeryOnMetastasis.softTissue insert ObligationActorAndCode($actor-headneck, #SHALL:handle)

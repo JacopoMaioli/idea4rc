@@ -47,9 +47,6 @@ Invasive Disease - 32943
 * regionalNodalMetastases insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * regionalNodalMetastases ^comment = """Regional spread to lymph node - 36769269
 """
-* sites 0..* BackboneElement "sites (R)" """Describes if site of metastasic disease  is soft tissue"""
-* sites insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
-* sites insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * sites.softTissue 0..* boolean "Soft tissue (R)" """Describes if site of metastasic disease  is soft tissue 
 """
 * sites.softTissue insert ObligationActorAndCode($actor-headneck, #SHALL:handle)

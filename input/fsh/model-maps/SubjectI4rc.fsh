@@ -66,7 +66,7 @@ Register the actual value of BMI centile in the value_as_number field"""
 """
 * charlsonComorbidityIndex insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * charlsonComorbidityIndex insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* comorbidity 1..* BackboneElement "Comorbidity (M)" """Describes wherther the patient was diagnosed before treatment of at least one of the comorbidities listed or not. 
+* comorbidity 1..* boolean "Comorbidity (M)" """Describes wherther the patient was diagnosed before treatment of at least one of the comorbidities listed or not. 
 It refers to any disease or medical condition that is simultaneously present with the cancer under study. 
 """
 * comorbidity insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
