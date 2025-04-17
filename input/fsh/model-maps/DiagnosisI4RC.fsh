@@ -44,7 +44,7 @@ Grade-2 - 1634752
 Grade-3 - 1633749
 Grade-H - 1635587
 Grade-L - 1634085"""
-* histologyGroup 0..* CodeableConcept "Histology group (R)" """HNC: Describes the histology of primary tumour according to WHO 2017 clasification. 
+* histologyGroup 0..* CodeableConcept "Histology group (O)" """HNC: Describes the histology of primary tumour according to WHO 2017 clasification. 
 Codes may not match the exact hierarchy in Athena"""
 * histologyGroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologyGroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -72,7 +72,7 @@ Undifferentiated small round cell sarcomas of bone and soft tissue - 2000100008
 Endometrial stromal sarcoma - 2000100009
 Miscellanious mesenchimal tumors - 2000100010
 Mixed epithelial and mesenchymal tumours - 2000100011"""
-* site 0..* CodeableConcept "Site (R)" """Describes the primary tumor site. For head and neck, according to AJCC . 
+* site 0..* CodeableConcept "Site (O)" """Describes the primary tumor site. For head and neck, according to AJCC . 
 Codes may not match the exact hierarchy in Athena"""
 * site insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * site insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -106,7 +106,7 @@ Urinary tract - 36769378
 Central Nervous System - 2000000015
 
 """
-* histologySubgroup 1..* CodeableConcept "Histology subgroup (M)" """Histology subgroup value for the cancer diagnosis. """
+* histologySubgroup 1..* CodeableConcept "Histology subgroup (O)" """Histology subgroup value for the cancer diagnosis. """
 * histologySubgroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologySubgroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * histologySubgroup ^comment = """Squamous cell carcinoma, keratinizing - 4078953
@@ -285,7 +285,7 @@ Langherans cell sarcoma - 4029173
 Fibroblastic reticular cell tumour - 42872917
 Biphenotypic sinonasal sarcoma - 37311513
 Adenosarcoma - 4135215"""
-* subsite 0..* CodeableConcept "Subsite (R)" """Topography subsite value for the cancer diagnosis 
+* subsite 0..* CodeableConcept "Subsite (O)" """Topography subsite value for the cancer diagnosis 
 """
 * subsite insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * subsite insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
@@ -432,7 +432,7 @@ Vulval structure - 4166066
 Face and/or neck structure - 4122633
 Breast structure - 4298444
 Any Domain=Spec Anatomic Site and Standard code"""
-* diagnosisCode 0..* CodeableConcept "Diagnosis code (R)" """Histology/Topography code combination for the cancer diagnosis 
+* diagnosisCode 1..* CodeableConcept "Diagnosis code (M)" """Histology/Topography code combination for the cancer diagnosis 
 """
 * diagnosisCode insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * diagnosisCode insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
