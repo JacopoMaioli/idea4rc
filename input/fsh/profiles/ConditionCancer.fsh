@@ -16,11 +16,10 @@ RuleSet: CancerConditionCommonRules
 * extension contains PreviousStatus named previousStatus 0..1
 * extension[previousStatus]
 
-* extension contains $HistologyMorphologyBehavior named histology-morphology-behavior 0..1
+* extension contains $HistologyMorphologyBehavior named histology-morphology-behavior 0..2
 * extension[HistologyMorphologyBehavior]
 
-* extension contains $HistologyMorphologySubgroupBehavior named histology-morphology-subgroup-behavior 0..1
-* extension[HistologyMorphologySubgroupBehavior]
+
 
 * extension contains RelapseType named relapseType 0..1 
 * extension[relapseType].value[x]
@@ -42,9 +41,9 @@ It is envisioned that this kind of requirements could be covered by recording wh
 
 
 * bodySite
-/*extension contains bodySite:site named site 0..*
+*extension contains bodySite:site named site 0..*
 *extension [site].valueCodeableConcept from sitesVs
-*extension contains bodySite:subsite named subsite 0..*
+/*extension contains bodySite:subsite named subsite 0..*
 *extension[subSite].valueCodeableConcept from VsSubsiteAthenaI4rc*/
   * extension contains BodyLocationQualifier named qualifier 0..*
   * extension[qualifier].valueCodeableConcept from VsSiteQualifierI4rc (extensible)
