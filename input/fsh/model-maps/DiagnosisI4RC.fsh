@@ -106,7 +106,7 @@ Urinary tract - 36769378
 Central Nervous System - 2000000015
 
 """
-* histologySubgroup 1..* CodeableConcept "Histology subgroup (O)" """Histology subgroup value for the cancer diagnosis. """
+* histologySubgroup 0..* CodeableConcept "Histology subgroup (O)" """Histology subgroup value for the cancer diagnosis. """
 * histologySubgroup insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * histologySubgroup insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * histologySubgroup ^comment = """Squamous cell carcinoma, keratinizing - 4078953
