@@ -60,23 +60,27 @@ Usage: #definition
 * group[=].element[=].target.code = #Condition.histologyMorphologyBehavior
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.comment = "The value must be one of the ones in CancerHystolgyVs"
 * group[=].element[+].code = #site
 * group[=].element[=].display = "Site (R)"
-* group[=].element[=].target.code = #Condition.bodySite:site
+* group[=].element[=].target.code = #Condition.bodySite
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.comment = "The value must be one of the ones in sitesVS"
 * group[=].element[+].code = #histologySubgroup
-* group[=].element[=].display = "Histology subgroup (M)"
-* group[=].element[=].target.code = #Condition.histologyMorphologySubgroupBehavior
+* group[=].element[=].display = "Histology subgroup (R)"
+* group[=].element[=].target.code = #Condition.histologyMorphologyBehavior
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.comment = "The value must be one of the ones in CancerhistologySubgroupVS"
 * group[=].element[+].code = #subsite
 * group[=].element[=].display = "Subsite (R)"
-* group[=].element[=].target.code = #Condition.bodySite:subsite
+* group[=].element[=].target.code = #Condition.bodySite
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.comment = "The value must be one of the ones in VsSubsiteAthenaI4rc"
 * group[=].element[+].code = #diagnosisCode
-* group[=].element[=].display = "Diagnosis code (R)"
+* group[=].element[=].display = "Diagnosis code (M)"
 * group[=].element[=].target.code = #Condition.code
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
@@ -158,7 +162,7 @@ Usage: #definition
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #diagnosisCode
-* group[=].element[=].display = "Diagnosis code (R)"
+* group[=].element[=].display = "Diagnosis code (M)"
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.display = ""
 * group[=].element[=].target.equivalence = #equivalent

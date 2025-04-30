@@ -560,3 +560,135 @@
 [2025-03-24 21:51:31] Processing file: IDEA4RC_DM_V2.xlsx
 [2025-03-24 21:51:32] Error loading ConceptMaps sheet in C:/idea4rc-master/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
 [2025-03-24 21:51:32] Error loading LogicalModels sheet in C:/idea4rc-master/src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2025-04-30 20:09:51] Processing file: idea4rc-models-and-maps.xlsx
+[2025-04-30 20:09:54] Created Subject2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Created Followup2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Created HospitalPatientRecords2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Created Diagnosis2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Created CancerEpisode2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated SubjectI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated PatientFollowUpI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated HospitalPatientRecordsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated CancerEpisodeI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated DiagnosisI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated ClinicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated PathologicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated EpisodeEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated DiseaseExtentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated GeneticTestExpressionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated SurgeryI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated SystemicTreatmentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated RadiotherapyI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:55] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:56] Updated IsolatedLimbPerfusionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:56] Updated DrugsForTreatmentsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:56] Updated OverallTreatmentResponseI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:56] Updated AdverseEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:09:56] Processing file: IDEA4RC_DM_V2.xlsx
+[2025-04-30 20:09:56] Error loading ConceptMaps sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2025-04-30 20:09:56] Error loading LogicalModels sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2025-04-30 20:15:08] Processing file: idea4rc-models-and-maps.xlsx
+[2025-04-30 20:15:08] Created Subject2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Created Followup2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Created HospitalPatientRecords2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Created Diagnosis2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Created CancerEpisode2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated SubjectI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated PatientFollowUpI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated HospitalPatientRecordsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated CancerEpisodeI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated DiagnosisI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated ClinicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated PathologicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated EpisodeEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated DiseaseExtentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated GeneticTestExpressionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated SurgeryI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated SystemicTreatmentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated RadiotherapyI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated IsolatedLimbPerfusionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated DrugsForTreatmentsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated OverallTreatmentResponseI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:15:09] Updated AdverseEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:00] Processing file: idea4rc-models-and-maps.xlsx
+[2025-04-30 20:17:00] Created Subject2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:00] Created Followup2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:00] Created HospitalPatientRecords2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Created Diagnosis2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Created CancerEpisode2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated SubjectI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated PatientFollowUpI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated HospitalPatientRecordsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated CancerEpisodeI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated DiagnosisI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated ClinicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated PathologicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated EpisodeEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated DiseaseExtentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated GeneticTestExpressionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated SurgeryI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated SystemicTreatmentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated RadiotherapyI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated IsolatedLimbPerfusionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated DrugsForTreatmentsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated OverallTreatmentResponseI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Updated AdverseEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:17:01] Processing file: IDEA4RC_DM_V2.xlsx
+[2025-04-30 20:17:02] Error loading ConceptMaps sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'ConceptMaps' not found
+[2025-04-30 20:17:02] Error loading LogicalModels sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2.xlsx: Worksheet named 'LogicalModels' not found
+[2025-04-30 20:18:01] Processing file: idea4rc-models-and-maps.xlsx
+[2025-04-30 20:18:01] Created Subject2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:01] Created Followup2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Created HospitalPatientRecords2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Created Diagnosis2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Created CancerEpisode2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated SubjectI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated PatientFollowUpI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated HospitalPatientRecordsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated CancerEpisodeI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated DiagnosisI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated ClinicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated PathologicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated EpisodeEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated DiseaseExtentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated GeneticTestExpressionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated SurgeryI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated SystemicTreatmentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated RadiotherapyI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated IsolatedLimbPerfusionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated DrugsForTreatmentsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated OverallTreatmentResponseI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Updated AdverseEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:18:02] Processing file: IDEA4RC_DM_V2_Roberta.xlsx
+[2025-04-30 20:18:03] Error loading ConceptMaps sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2_Roberta.xlsx: Worksheet named 'ConceptMaps' not found
+[2025-04-30 20:18:03] Error loading LogicalModels sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2_Roberta.xlsx: Worksheet named 'LogicalModels' not found
+[2025-04-30 20:21:36] Processing file: idea4rc-models-and-maps.xlsx
+[2025-04-30 20:21:36] Created Subject2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:36] Created Followup2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:36] Created HospitalPatientRecords2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:36] Created Diagnosis2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:36] Created CancerEpisode2FHIR.fsh in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated SubjectI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated PatientFollowUpI4rc.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated HospitalPatientRecordsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated CancerEpisodeI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated DiagnosisI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated ClinicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated PathologicalStageI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated EpisodeEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated DiseaseExtentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated GeneticTestExpressionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated SurgeryI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated SystemicTreatmentI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated RadiotherapyI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated RegionalDeepHyperthemiaI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated IsolatedLimbPerfusionI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated DrugsForTreatmentsI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated OverallTreatmentResponseI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Updated AdverseEventI4RC.fsh with elements in C:\idea4rc-master\input\fsh\model-maps
+[2025-04-30 20:21:37] Processing file: IDEA4RC_DM_V2_Roberta.xlsx
+[2025-04-30 20:21:37] Error loading ConceptMaps sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2_Roberta.xlsx: Worksheet named 'ConceptMaps' not found
+[2025-04-30 20:21:38] Error loading LogicalModels sheet in C:\idea4rc-master\src-models\IDEA4RC_DM_V2_Roberta.xlsx: Worksheet named 'LogicalModels' not found

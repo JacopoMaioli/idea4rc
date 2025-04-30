@@ -11,17 +11,7 @@ Maturity Level: 0 Draft"""
 """
 * episodeEvent insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * episodeEvent insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
-* surgeryType 1..* CodeableConcept "Surgery type (M)" """Primary surgery/re-excision (check with unplanned or excisional biopsy)
-
-Check
-
-"Surgery (with date) is a procedure occurrence, which is 
-referred to in the EPISODE_EVENT table. 
-Provider of the procedure can be defined based on the hospital.
-
-If type of surgery is not specified use SURGICAL PROCEDURE."
-
-CHILDREN"""
+* surgeryType 1..* CodeableConcept "Surgery type (M)" """Primary surgery/re-excision (check with unplanned or excisional biopsy)"""
 * surgeryType insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * surgeryType ^comment = """Surgical procedure - 4301351
 Local excision - 4315400
@@ -32,14 +22,7 @@ Limb operation - 4181193
 """
 * surgeryHospital insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * dateOfSurgery 1..* date "Date of surgery (M)" """Date of the surgery for primary tumor with or without neck surgery 
-Is there a new excision surgery to treat the cancer by removing the tumor ?
-Yes : New event
-Is the tumor that is going to be removed metastatic ?
-Yes: Add True for Surgery on M, with the same date than the surgery date
-Is the tumor on the Neck ?
-Yes: add true for Neck Surgery, with the same date than the surgery date
-Is the neck surgery accompanied by a dissection ?
-Yes : fill the type of dissection"""
+"""
 * dateOfSurgery insert ObligationActorAndCode($actor-headneck, #SHALL:handle)
 * dateOfSurgery insert ObligationActorAndCode($actor-sarcoma-i4rc, #SHALL:handle)
 * surgeryIntention 0..* CodeableConcept "Surgery intention (O)" """Palliative: surgery performed with the intent of improving quality of life or relieving symptoms caused by advanced disease.
