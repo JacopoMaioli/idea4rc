@@ -3,7 +3,7 @@ Id: nasal-subsite-athena-i4rc
 Title: "Subsites: Athena"
 Description: "Specifies the subsites where cancers occured: Athena"
 //-------------------------------------------------------------------------------------------
-*/* ^status = #active*/
+* ^status = #active
 * ^experimental = false
 
 //* codes from valueset VsNasalandParanasalSubsiteAthenaI4rc
@@ -139,7 +139,7 @@ Description: "Specifies the subsites where cancers occured: Athena"
 * $athena#4150673 "Pleura structure"  
 * $athena#4088610 "Region of mediastinum"  
 * $athena#4167648 "Superior vena cava structure"  
-* $athena#4004831 "Aorta and aorta, CS"  
+/** $athena#4004831 "Aorta and aorta, CS"*/ 
 * $athena#4035327 "Stricture of pulmonary vessel"  
 * $athena#4272388 "Structure of subclavian artery"  
 * $athena#4051774 "Adrenal structure"  
@@ -161,7 +161,7 @@ Description: "Specifies the subsites where cancers occured: Athena"
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-/*ValueSet: UpperLowerLimbsSubsiteAthenaI4rc
+ValueSet: UpperLowerLimbsSubsiteAthenaI4rc
 Id: upperLower-limbs-subsite-athena-i4rc
 Title: "Upper and Lower limbs subsite: Athena"
 Description: "Specifies the subsite for cancers occured in Upper and Lower limbs : Athena"
@@ -227,7 +227,7 @@ Description: "Specifies the subsite for cancers occurred in Intra abdominal: Ath
 * $athena#4220536 "Retroperitoneal compartment structure"
 * $athena#4271699 "Inferior vena cava structure"
 * $athena#4193451 "Iliac vessel"
-* $athena#4004831 "Aorta and aorta, CS"
+/** $athena#4004831 "Aorta and aorta, CS"*/
 * $athena#4154880 "Structure of renal artery"
 * $athena#4157844 "Gonadal artery"
 * $athena#4314264 "Structure of mesenteric artery"
@@ -260,7 +260,7 @@ Description: "Specifies the subsite for cancers occurred in Intra thoracic: Athe
 * $athena#4150673 "Pleura structure"
 * $athena#4088610 "Region of mediastinum"
 * $athena#4167648 "Superior vena cava structure"
-* $athena#4004831 "Aorta and aorta, CS"
+/** $athena#4004831 "Aorta and aorta, CS"*/
 * $athena#4035327 "Stricture of pulmonary vessel"
 * $athena#4272388 "Structure of subclavian artery"
 

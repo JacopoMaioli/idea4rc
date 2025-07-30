@@ -1,10 +1,19 @@
-ValueSet: sitesVs
-Id: sitesVs
-Title:"sites-athena"
+ValueSet: SitesVs
+Id: sites-vs
+Title: "Cancer site: Athena"
 Description: "Describes the primary tumor site."
 
+* ^experimental = false
+* codes from valueset SiteVs
+* codes from valueset VsSubsiteAthenaI4rc
 
-*^experimental = false
+
+ValueSet: SiteVs
+Id: site-vs
+Title: "Site: Athena"
+Description: "Describes the primary tumor site."
+
+* ^experimental = false
 
 * $athena#2000000067 "Nasal cavity and paranasal sinus"  
 * $athena#36769745 "Nasopharynx"  
@@ -13,12 +22,11 @@ Description: "Describes the primary tumor site."
 * $athena#36769383 "Sublingual gland"  
 * $athena#2000100020 "Middle ear"  
 * $athena#36770295 "Hypopharynx"  
-* $athena#36769199 "Oropharynx"  
-* $athena#2000000037 "Larynx"  
+* $athena#36769199 "Oropharynx"   
 * $athena#2000100021 "Oral cavity"  
 * $athena#36769197 "Lip"  
 * $athena#2000000057 "Pharynx"  
-* $athena#2000000067 "Sinonasal"  
+/* $athena#2000000067 "Sinonasal"*/
 * $athena#2000000037 "Larynx"  
 * $athena#36769894 "Head, face, and neck"  
 * $athena#36769192 "Upper limb and shoulder"  

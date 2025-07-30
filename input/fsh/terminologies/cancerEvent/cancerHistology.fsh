@@ -1,41 +1,18 @@
-ValueSet: CancerhistologyBehaviourVS
+ValueSet: CancerHistologyBehaviourVS
 Id: cancer-histology-behavior-athena-vs 
 Title: "Cancer histology behaviour: Athena"
 Description: "Codes identifing the histology behaviour of the cancer."
 
 
 * ^experimental = false
-* codes from valueset CancerhistologySubgroupVS
+* codes from valueset CancerHistologySubgroupVS
 * codes from valueset CancerHystolgyVs
 
 
-ValueSet: CancerhistologySubgroupVS
+ValueSet: CancerHistologySubgroupVS
 Id: cancer-histology-subgroup-athena-vs  
 Title: "Cancer histology subgroup: Athena"
 Description: "Codes identifing the histology subgroup of the cancer."
-
-
-/* ^experimental = false
-* codes from valueset HistologyAdenocarcinomaVS 
-* codes from valueset HistologyNeuroendocrineVS
-* codes from valueset HistologyOdontogenicCarcinomaVS
-* codes from valueset HistologySNUCVS
-* codes from valueset HistologySquamousVS   
-* codes from valueset HistologySubgroupAdipocyticTumoursVS   
-* codes from valueset HistologySubgroupFmtTumoursVS    
-* codes from valueset HistologySocalledFibrohistiocyticTumoursVS  
-* codes from valueset MiscellaniousMesenchimalTumorsVS
-* codes from valueset MixedEpithelialAndMesenchymalTumoursVS
-* codes from valueset PericyticPerivascularTumoursVS
-* codes from valueset PeripheralNerveSheathTumoursVS
-* codes from valueset SkeletalMuscleTumoursVS
-* codes from valueset SmoothMuscleTumoursVS
-* codes from valueset TumoursOfUncertainDifferentiationVS
-* codes from valueset UndifSmallRCelSarcBonAndSofTisVS
-* codes from valueset VascularTumoursVS
-* codes from valueset ChondroOsseousTumoursVS
-* codes from valueset EstAndRelatedTumoursVS */
-
 
 * $athena#4078953 "Squamous cell carcinoma, keratinizing"  
 * $athena#4166826 "Squamous cell carcinoma, large cell, nonkeratinizing"  
@@ -106,7 +83,7 @@ Description: "Codes identifing the histology subgroup of the cancer."
 * $athena#3661612 "Angiosarcoma"  
 * $athena#4029021 "Undifferentiated sarcoma"  
 * $athena#4239519 "Myoepithelioma"  
-* $athena#4029680 "Myoepithelial carcinoma"  
+/* $athena#4029680 "Myoepithelial carcinoma"*/  
 * $athena#4028565 "Ossifying fibromyxoid tumour"  
 * $athena#4195947 "Mesenchymoma"  
 * $athena#45766484 "Phosphaturic mesenchymal tumor, benign"  
@@ -124,48 +101,13 @@ Description: "Codes identifing the histology subgroup of the cancer."
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ValueSet: CancerHystolgyVs
 Id: cancer-histology-athena-vs
-Title:"Cancer histology: Athena"
+Title: "Cancer histology: Athena"
 Description: "Codes identifying the histology of cancer."
 
 
-*^experimental = false
+* ^experimental = false
 
 * $athena#37156145 "Squamous cell carcinoma"  
 * $athena#37152526 "Adenocarcinoma"  
@@ -190,6 +132,30 @@ Description: "Codes identifying the histology of cancer."
 * $athena#2000100009 "Endometrial stromal sarcoma"  
 * $athena#2000100010 "Miscellaneous mesenchymal tumors"  
 * $athena#2000100011 "Mixed epithelial and mesenchymal tumours"  
+
+
+/* ^experimental = false
+* codes from valueset HistologyAdenocarcinomaVS 
+* codes from valueset HistologyNeuroendocrineVS
+* codes from valueset HistologyOdontogenicCarcinomaVS
+* codes from valueset HistologySNUCVS
+* codes from valueset HistologySquamousVS   
+* codes from valueset HistologySubgroupAdipocyticTumoursVS   
+* codes from valueset HistologySubgroupFmtTumoursVS    
+* codes from valueset HistologySocalledFibrohistiocyticTumoursVS  
+* codes from valueset MiscellaniousMesenchimalTumorsVS
+* codes from valueset MixedEpithelialAndMesenchymalTumoursVS
+* codes from valueset PericyticPerivascularTumoursVS
+* codes from valueset PeripheralNerveSheathTumoursVS
+* codes from valueset SkeletalMuscleTumoursVS
+* codes from valueset SmoothMuscleTumoursVS
+* codes from valueset TumoursOfUncertainDifferentiationVS
+* codes from valueset UndifSmallRCelSarcBonAndSofTisVS
+* codes from valueset VascularTumoursVS
+* codes from valueset ChondroOsseousTumoursVS
+* codes from valueset EstAndRelatedTumoursVS */
+
+
 
 
 
