@@ -297,10 +297,10 @@ object "IsolatedLimbPerfusion" as ilp {
     - <color:green>treatmentResponse</color>
 }
 object "OverallTreatmentResponse" as otr {
-    + <color:blue>diagnosisReference</color>
-    + <color:blue>episodeEventRefence</color>
-    + <color:blue>overallTreatmentResponse</color>
-    + <color:blue>overallTreatmentResponseDefined/Done</color>
+    - <color:blue>diagnosisReference</color>
+    - <color:blue>episodeEventRefence</color>
+    - <color:blue>overallTreatmentResponse</color>
+    - <color:blue>overallTreatmentResponseDefined/Done</color>
 }
 object "GeneticTestExpression" as gte {
     - <color:red>diagnosisReference</color>
